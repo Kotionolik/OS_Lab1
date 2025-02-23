@@ -1,0 +1,10 @@
+^C:\USERS\FEDOR\SOURCE\REPOS\OS_LAB1\OS_LAB1\CMAKELISTS.TXT
+setlocal
+D:\Soft\CMake\bin\cmake.exe -SC:/Users/Fedor/source/repos/OS_Lab1/OS_Lab1 -BC:/Users/Fedor/source/repos/OS_Lab1/OS_Lab1/build --check-stamp-file C:/Users/Fedor/source/repos/OS_Lab1/OS_Lab1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

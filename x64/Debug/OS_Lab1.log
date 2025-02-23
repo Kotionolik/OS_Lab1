@@ -1,0 +1,3 @@
+﻿main.obj : error LNK2005: main уже определен в Creator.obj
+Reporter.obj : error LNK2005: main уже определен в Creator.obj
+C:\Users\Fedor\source\repos\OS_Lab1\x64\Debug\OS_Lab1.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
